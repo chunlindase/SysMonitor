@@ -1,0 +1,120 @@
+2021-07-08 05:19:58,254 monitor.py[line:210] INFO {'msgtype': 'text', 'text': {'content': '[]\n进程挂掉了！\n[["/home/bin", "0", "test", "2", "cd /home/bin && ./test &"]]\n机器：测试服务器\n磁盘已使用：100.0%\n内存已使用：36%\ncpu已使用：4.1%\n请尽快处理！'}}
+2021-07-08 05:19:58,258 connectionpool.py[line:826] DEBUG Starting new HTTPS connection (1): oapi.dingtalk.com
+2021-07-08 05:19:58,555 connectionpool.py[line:396] DEBUG https://oapi.dingtalk.com:443 "POST /robot/send?access_token= HTTP/1.1" 200 None
+2021-07-08 05:19:58,557 eucjpprober.py[line:62] DEBUG EUC-JP Japanese prober hit error at byte 32
+2021-07-08 05:19:58,557 mbcharsetprober.py[line:66] DEBUG EUC-KR Korean prober hit error at byte 32
+2021-07-08 05:19:58,557 mbcharsetprober.py[line:66] DEBUG CP949 Korean prober hit error at byte 34
+2021-07-08 05:19:58,557 mbcharsetprober.py[line:66] DEBUG Big5 Chinese prober hit error at byte 35
+2021-07-08 05:19:58,557 mbcharsetprober.py[line:66] DEBUG EUC-TW Taiwan prober hit error at byte 29
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG windows-1251 Russian confidence = 0.01
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG KOI8-R Russian confidence = 0.01
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Russian confidence = 0.0
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG MacCyrillic Russian confidence = 0.13652795085539882
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG IBM866 Russian confidence = 0.0
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG IBM855 Russian confidence = 0.01
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG ISO-8859-7 Greek confidence = 0.0
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG windows-1253 Greek confidence = 0.0
+2021-07-08 05:19:58,558 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Bulgairan confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG windows-1251 Bulgarian confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG TIS-620 Thai confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG ISO-8859-9 Turkish confidence = 0.39363947319300885
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:19:58,559 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:19:58,559 monitor.py[line:213] INFO {"errcode":40035,"errmsg":"缺少参数 access_token"}
+2021-07-08 05:21:21,221 monitor.py[line:210] INFO {'msgtype': 'text', 'text': {'content': '[]\n进程挂掉了！\n[["/home/bin", "0", "test", "2", "cd /home/bin && ./test &"]]\n机器：测试服务器\n磁盘已使用：100.0%\n内存已使用：36%\ncpu已使用：3.0%\n请尽快处理！'}}
+2021-07-08 05:21:21,223 connectionpool.py[line:826] DEBUG Starting new HTTPS connection (1): oapi.dingtalk.com
+2021-07-08 05:21:21,530 connectionpool.py[line:396] DEBUG https://oapi.dingtalk.com:443 "POST /robot/send?access_token= HTTP/1.1" 200 None
+2021-07-08 05:21:21,532 eucjpprober.py[line:62] DEBUG EUC-JP Japanese prober hit error at byte 32
+2021-07-08 05:21:21,532 mbcharsetprober.py[line:66] DEBUG EUC-KR Korean prober hit error at byte 32
+2021-07-08 05:21:21,532 mbcharsetprober.py[line:66] DEBUG CP949 Korean prober hit error at byte 34
+2021-07-08 05:21:21,532 mbcharsetprober.py[line:66] DEBUG Big5 Chinese prober hit error at byte 35
+2021-07-08 05:21:21,532 mbcharsetprober.py[line:66] DEBUG EUC-TW Taiwan prober hit error at byte 29
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1251 Russian confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG KOI8-R Russian confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Russian confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG MacCyrillic Russian confidence = 0.13652795085539882
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG IBM866 Russian confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG IBM855 Russian confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG ISO-8859-7 Greek confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1253 Greek confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Bulgairan confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1251 Bulgarian confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG TIS-620 Thai confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG ISO-8859-9 Turkish confidence = 0.39363947319300885
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:21:21,533 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:21:21,533 monitor.py[line:213] INFO {"errcode":40035,"errmsg":"缺少参数 access_token"}
+2021-07-08 05:23:40,607 monitor.py[line:211] INFO {'msgtype': 'text', 'text': {'content': '[]\n进程挂掉了！\n[["/home/bin", "0", "test", "2", "cd /home/bin && ./test &"]]\n机器：测试服务器\n磁盘已使用：100.0%\n内存已使用：36%\ncpu已使用：2.0%\n请尽快处理！'}}
+2021-07-08 05:23:40,610 connectionpool.py[line:826] DEBUG Starting new HTTPS connection (1): oapi.dingtalk.com
+2021-07-08 05:23:40,882 connectionpool.py[line:396] DEBUG https://oapi.dingtalk.com:443 "POST /robot/send?access_token= HTTP/1.1" 200 None
+2021-07-08 05:23:40,883 eucjpprober.py[line:62] DEBUG EUC-JP Japanese prober hit error at byte 32
+2021-07-08 05:23:40,883 mbcharsetprober.py[line:66] DEBUG EUC-KR Korean prober hit error at byte 32
+2021-07-08 05:23:40,884 mbcharsetprober.py[line:66] DEBUG CP949 Korean prober hit error at byte 34
+2021-07-08 05:23:40,884 mbcharsetprober.py[line:66] DEBUG Big5 Chinese prober hit error at byte 35
+2021-07-08 05:23:40,884 mbcharsetprober.py[line:66] DEBUG EUC-TW Taiwan prober hit error at byte 29
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:23:40,884 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1251 Russian confidence = 0.01
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG KOI8-R Russian confidence = 0.01
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Russian confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG MacCyrillic Russian confidence = 0.13652795085539882
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG IBM866 Russian confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG IBM855 Russian confidence = 0.01
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG ISO-8859-7 Greek confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1253 Greek confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG ISO-8859-5 Bulgairan confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1251 Bulgarian confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG TIS-620 Thai confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG ISO-8859-9 Turkish confidence = 0.39363947319300885
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG windows-1255 Hebrew confidence = 0.0
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG utf-8  confidence = 0.938125
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG SHIFT_JIS Japanese confidence = 0.01
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:97] DEBUG EUC-JP not active
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:100] DEBUG GB2312 Chinese confidence = 0.01
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:97] DEBUG EUC-KR not active
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:97] DEBUG CP949 not active
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:97] DEBUG Big5 not active
+2021-07-08 05:23:40,885 charsetgroupprober.py[line:97] DEBUG EUC-TW not active
+2021-07-08 05:23:40,885 monitor.py[line:214] INFO {"errcode":40035,"errmsg":"缺少参数 access_token"}
