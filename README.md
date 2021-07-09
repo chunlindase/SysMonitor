@@ -2,7 +2,7 @@
 monitor the CPU/Mem/Net usage
 
 # file tree
-
+```
 ├── Final
 └── Refer
     ├── indicator-sysmonitor
@@ -10,6 +10,7 @@ monitor the CPU/Mem/Net usage
     ├── ServerMonitor
     └── sysinfo
         ├── static
+
         │   ├── css
         │   ├── js
         │   └── screenshots
@@ -21,7 +22,7 @@ monitor the CPU/Mem/Net usage
         │   └── process
         └── views
             └── __pycache__
-
+```
 
 # Important Reference
 
